@@ -1,0 +1,73 @@
+.auth {
+    width: 100%;
+    &_container {
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    &_form {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+    }
+    &_name {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &_inputField {
+        width: 300px;
+        height: 35px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px;
+        padding-right: 10px;
+    }
+    &_input{
+        box-sizing: border-box;
+        width: 300px;
+        height: 35px;
+        margin-top: 5px;
+        padding: 10px;
+        outline: none;
+    }
+    &_inputField input {
+        box-sizing: border-box;
+        border: hidden;
+        outline: none;
+        width: 200px;
+        height: 25px;
+        padding-top: 12px;
+    }
+    &_button {
+        width: 100px;
+        height: 35px;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        border-style: none;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        cursor: pointer;
+    }
+    &_logo {
+        text-align: center;
+    }
+    &_inputGroup1 {
+        height: 65px;
+    }
+    &_inputGroup2 {
+        height: 65px;
+    }
+}

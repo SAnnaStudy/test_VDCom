@@ -1,0 +1,54 @@
+.App {
+  width: 1300px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.appTitle{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #050510;
+  margin-left: 16px;
+}
+.hr{
+  margin: 0;
+}
+.main_part{
+  width: 1200px;
+  padding-top: 15px;
+}
+.first_line{
+  width: 1200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+button{
+  width: 141px;
+  height: 40px;
+  background-color: #EDBC4A;
+  border: none;
+  border-radius: 5px;
+}
+.paginator-div{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.calendar{
+  width: 1300px;
+  margin-top: 8px;
+  display: flex;
+  margin: auto;
+}
+.project{
+  width: 1300px;
+  margin-top: 8px;
+  display: flex;
+  margin: auto;
+}

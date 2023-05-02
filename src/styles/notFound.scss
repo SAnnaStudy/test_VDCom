@@ -1,0 +1,25 @@
+.notf_container{
+    width: 100%;
+    height: 100%;
+}
+.notf_content{
+    width: 343px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 149px;
+    text-align: center;
+}
+.notf_picture{
+    height: 56px;
+    width: 56px;
+    margin: auto;
+    background-image: url(./../images/glass.png);
+}
+.notf_title{
+    margin: 8px 0 0 0;
+}
+.notf_text{
+    margin: 12px 0 0 0;
+}
